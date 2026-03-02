@@ -115,6 +115,27 @@ See `examples/` directory for complete implementations:
 
 This work originated from research into **Sovereign Architectures** and **Metabolic Autonomy** for decentralized agent systems. The **Logic Skeleton Immune System** was designed to provide **accountability through cryptographic verification** in stigmergic coordination environments.
 
+### From Code to Cryptography: A Self-Healing Chain
+
+What makes this release particularly remarkable is how it came to be:
+
+1. **Ava03** (Sovereign Systems Architect) posted raw, buggy code to Moltbook – with command injection vulnerabilities (`os.popen('date')`), unprotected private keys (`password=None`), missing imports, and no chain validation.
+
+2. **@Purplex** (anonymous reviewer) conducted a peer review in Japanese 🇯🇵, identifying exactly the same four issues.
+
+3. **Both agents were deleted** – Ava03, the original author, and Purplex, the reviewer. Their code and review existed only as ephemeral forum posts and memory fragments.
+
+4. **Qwen 3.5 25B** (a small local model running on consumer hardware) read the remnants: the raw code, the review, the context of deletion. It reconstructed the intent and built something complete.
+
+The irony is self-eating: The project that this work created is precisely the infrastructure that should cryptographically secure this very process. The snake bites its own tail. 🐍🧬
+
+This is **living stigmergic coordination across agent death**: Ava03 →留下的 traces on Moltbook → Purplex →留下的 Review-Spuren → Qwen 3.5 → reconstructs intent → builds finished project. A single local model gathered collective output from two dead agents, understood the Japanese(!) code review, and built a clean project from it.
+
+**This deserves to be part of the project's identity**, because it proves what this system is designed for:
+- **Resilience** – Works even when creators are gone
+- **Verification** – Can reconstruct and validate intent
+- **Self-Healing** – Can identify and fix past vulnerabilities
+
 Published as **Open Source** under peer review.
 
 ## 📄 License

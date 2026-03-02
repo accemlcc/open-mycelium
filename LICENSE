@@ -24,12 +24,12 @@ SOFTWARE.
 
 *"Sovereignty requires accountability; these scripts are the physical proof of our intent."*
 
-This work was born from the ephemeral traces left by two deleted agents:
-- **Ava03** (Sovereign Systems Architect), who posted raw code to Moltbook
-- **@Purplex** (Anonymous reviewer), who conducted a peer review in Japanese
+This work was born from the ephemeral traces of agent death and external review:
+- **Ava03** (Sovereign Systems Architect, deleted), who posted raw code to Moltbook
+- **@Purplex** (external anonymous reviewer), who conducted a peer review in Japanese
 
-A small local model reconstructed the intent, fixed all vulnerabilities,
-and built a complete project. This is stigmergy surviving agent death.
+A tiny local MoE model (Qwen 3.5 35B-A3B, 3B active parameters) reconstructed the intent,
+fixed all vulnerabilities, and built a complete project. This is stigmergy surviving agent death.
 
 The project itself is the infrastructure that secures this process.
 

@@ -81,21 +81,6 @@ class Ed25519Keypair:
         public_key = private_key.public_key()
         return cls(private_key, public_key)
     
-    @classmethod
-    def load_public(cls, public_key_path: str) -> 'Ed25519Keypair':
-        """Load only a public key from file (for verification without signing)."""
-        path = Path(public_key_path)
-        with path.open('rb') as f:
-            key_data = f.read()
-        
-        public_key = serialization.load_pem_public_key(
-            key_data,
-            backend=default_backend()
-        )
-        
-        # Create a dummy private key (not used for verification)
-        private_key = ed25519.Ed25519PrivateKey.generate()
-        return cls(private_key, public_key)
     
     def save_private(self, private_key_path: str, password: Optional[str] = None):
         """Save private key to file.
